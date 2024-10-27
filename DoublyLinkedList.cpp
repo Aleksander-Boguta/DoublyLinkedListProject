@@ -178,13 +178,15 @@ void DoublyLinkedList<T>::clear() {
     size = 0;
 }
 
+
+
 // Konwersja listy do postaci tekstowej
 template <typename T>
 std::string DoublyLinkedList<T>::toString() const {
     std::string result = "Lista: ";
     Node<T>* current = head;
     while (current != nullptr) {
-        result += std::to_string(current->data) + " ";
+        result += std::to_string(current->data) + "->";
         current = current->next;
     }
     return result;

@@ -13,6 +13,7 @@ void displayMenu() {
     std::cout << "8. Wyświetl listę\n";
     std::cout << "9. Wyczyść listę\n";
     std::cout << "10. Wyświetl listę jako tekst\n";
+    //std::cout << "11. Przeprowadź test wydajności\n";
     std::cout << "0. Wyjdź\n";
     std::cout << "Wybierz opcję: ";
 }
@@ -86,6 +87,10 @@ int main() {
             case 10:
                 std::cout << "Lista jako tekst: " << list.toString() << std::endl;
                 break;
+
+            // case 11:
+            //     measureTime();
+            //     break;
 
             case 0:
                 std::cout << "Koniec programu.\n";
