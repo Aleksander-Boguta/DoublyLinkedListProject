@@ -1,3 +1,5 @@
+# ZADANIE LISTA DWUKIERUNKOWA
+
 Celem zadania jest zaimplementowanie struktury danych nazywanej listą dwukierunkową (ang. doubly linked list), która jest jedną z podstawowych liniowych struktur danych. Lista dwukierunkowa składa się z węzłów, gdzie każdy węzeł zawiera trzy informacje:
 
 Dane właściwe (rekord lub obiekt),
